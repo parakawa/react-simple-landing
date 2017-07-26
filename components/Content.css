@@ -1,0 +1,10 @@
+section{
+	background-color: #FFCB28;
+	height:70vh;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 5em;
+}
