@@ -1,5 +1,4 @@
-@import "normalize.css";
-
+@import "bulma/css/bulma.css";
 html {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -7,6 +6,8 @@ html {
   /* https://www.sitepoint.com/understanding-and-using-rem-units-in-css/ */
   font-size: 62.5%;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 

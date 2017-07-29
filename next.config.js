@@ -16,7 +16,7 @@ module.exports = {
         use: [
           'babel-loader',
           'raw-loader',
-          'postcss-loader',
+          'postcss-loader'
         ],
       }
     );

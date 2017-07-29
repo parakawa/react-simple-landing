@@ -3,7 +3,7 @@ import styles from './Footer.css';
 export default () => (
   <footer>
     <style jsx>{styles}</style>
-      <h2>Soy un Footer</h2>
+    <h2>Soy un Footer</h2>
   </footer>
 );
 

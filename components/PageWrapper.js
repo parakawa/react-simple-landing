@@ -1,7 +1,7 @@
 /* -*- mode: react -*- */
 /* eslint-disable react/no-danger */
 import Head from 'next/head';
-import stylesheet from 'styles/index.css';
+import stylesheet from '../styles/index.css';
 
 // Una funcion que devuelve una funcion
 export default Page => () => (
@@ -12,7 +12,7 @@ export default Page => () => (
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900i"
         rel="stylesheet"
       />
-      <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+      <style jsx global>{stylesheet}</style>
     </Head>
     <Page />
   </div>
