@@ -12,8 +12,8 @@ export default Page => () => (
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900i"
         rel="stylesheet"
       />
-      <style jsx global>{stylesheet}</style>
     </Head>
     <Page />
+    <style jsx global>{stylesheet}</style>
   </div>
 );
